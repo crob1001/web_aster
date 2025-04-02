@@ -4,13 +4,13 @@
 #include <emscripten.h>
 
 #include "include/gameStruct.h"
-#include "include/rigidBody.h"
+#include "include/physics/physics.h"
 #include "include/init.h"
 #include "include/update.h"
 #include "include/draw.h"
 #include "include/destroy.h"
 #include "include/loadTextures.h"
-#include "include/processEvents.h"
+#include "include/events/processEvents.h"
 
 
 void main_loop(void *vgame) {

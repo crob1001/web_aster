@@ -1,3 +1,0 @@
-void updatePos(RigidBody *body) {
-
-}
